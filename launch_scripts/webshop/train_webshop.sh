@@ -27,7 +27,7 @@ train_data_size=${BASE_TRAIN_BATCH}
 val_data_size=${BASE_VAL_BATCH}
 
 RUN_NAME="${RUN_NAME:-skill1_webshop}"
-export MODEL_PATH="${MODEL_PATH:-${SKILL1_ROOT}/huggingface.co/Qwen/Qwen2.5-7B-Instruct}"
+export MODEL_PATH="${MODEL_PATH:-${SKILL1_ROOT}/Qwen/Qwen2.5-7B-Instruct}"
 export HDFS_CHECKPOINT_PATH="${SKILL1_ROOT}/trained_models/skill1/webshop/ckpts"
 export WEBSHOP_DATA="${SKILL1_ROOT}/data/datasets/webshop/webshop_data"
 export HYDRA_FULL_ERROR=1
